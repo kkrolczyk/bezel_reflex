@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="org.kkrolczyk.tizen.bezel_reflex" version="1.0.0">
+    <author email="krzysztof.krolczyk@o2.pl">Krzysztof Królczyk</author>
+    <description>Bezel reflex game. Rotate bezel, catch ball with matching dash and ball color.</description>
+    <profile name="wearable"/>
+    <ui-application appid="org.kkrolczyk.tizen.bezel_reflex" exec="bezel_reflex" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>Bezel reflex</label>
+        <icon>icon.png</icon>
+    </ui-application>
+</manifest>
